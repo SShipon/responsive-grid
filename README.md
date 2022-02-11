@@ -1,1 +1,1 @@
-# responsive-grid
+# responsive-grid (https://sshipon.github.io/responsive-grid/)
