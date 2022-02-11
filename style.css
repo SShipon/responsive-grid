@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.cols {
+  border: 1px solid navy;
+  text-align: center;
+}
+.grid-gap {
+  grid-gap: 10px;
+}
+
+.grid_col_6 {
+  grid-column: span 6;
+}
+.grid_col_6 {
+  grid-column: span 6;
+}
+.grid_col_12 {
+  grid-column: span 12;
+}
+
+@media only screen and (max-width: 688px) {
+  .grid_col_6 {
+    grid-column: span 12;
+  }
+  .grid_col_12 {
+    grid-column: span 12;
+  }
+}
